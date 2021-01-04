@@ -46,12 +46,20 @@
         <div
           class="banner__bg animate__animated animate__fadeIn animate__slower"
           fxLayout
-          fxLayoutAlign="center center"
+          fxLayoutAlign="stretch center"
           fxFlex="50"
           fxHide.lt-sm
           [fxFlexOrder]="isRtl ? 2 : 1"
         >
           <img src="assets/images/home-slider/slide-1.jpg" />
+          <div class="banner__bg__buttons">
+            <button class="btn-next" (click)="owlCar.next()">
+              {{ "HOME.HOME_CAROUSEL.NEXT" | translate }}
+            </button>
+            <button class="btn-prev" (click)="owlCar.prev()">
+              {{ "HOME.HOME_CAROUSEL.PREV" | translate }}
+            </button>
+          </div>
         </div>
       </div>
     </ng-template>
@@ -79,22 +87,6 @@
           >
             {{ "HOME.HOME_CAROUSEL.SLIDE_2_FIRST_PARAGRAPH" | translate }}
           </p>
-
-          <div
-            class="banner__large-title animate__animated animate__fadeInUp animate__delay-1s animate__slow"
-          >
-            {{ "HOME.HOME_CAROUSEL.SLIDE_2_SECOND_TITLE" | translate }}
-          </div>
-          <div
-            class="banner__leafs animate__animated animate__fadeInUp animate__delay-2s animate__slow"
-          >
-            <img src="assets/images/home-slider/slider-5-leafs.png" alt="" />
-          </div>
-          <p
-            class="banner__text animate__animated animate__fadeInUp animate__delay-2s animate__slow"
-          >
-            {{ "HOME.HOME_CAROUSEL.SLIDE_2_SECOND_PARAGRAPH" | translate }}
-          </p>
         </div>
         <div
           class="banner__bg animate__animated animate__fadeIn animate__slower"
@@ -103,16 +95,16 @@
           [fxFlexOrder]="isRtl ? 2 : 1"
         >
           <img src="assets/images/home-slider/slide-2.jpg" />
+          <div class="banner__bg__buttons">
+            <button class="btn-next" (click)="owlCar.next()">
+              {{ "HOME.HOME_CAROUSEL.NEXT" | translate }}
+            </button>
+            <button class="btn-prev" (click)="owlCar.prev()">
+              {{ "HOME.HOME_CAROUSEL.PREV" | translate }}
+            </button>
+          </div>
         </div>
       </div>
     </ng-template>
   </owl-carousel-o>
-  <div class="banner__buttons">
-    <button class="btn-prev" (click)="owlCar.prev()">
-      {{ "HOME.HOME_CAROUSEL.PREV" | translate }}
-    </button>
-    <button class="btn-next" (click)="owlCar.next()">
-      {{ "HOME.HOME_CAROUSEL.NEXT" | translate }}
-    </button>
-  </div>
 </section>

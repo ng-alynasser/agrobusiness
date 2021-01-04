@@ -1,7 +1,7 @@
 @import "src/styles";
 
 .services {
-  padding: 120px 0;
+  padding: 40px 0;
 
   @include media("<md") {
     padding: 50px 0 30px 0;
@@ -17,22 +17,20 @@
     }
 
     p {
-      color: var(--primary-color);
+      color: var(--dark-gray);
       letter-spacing: 0.2em;
-      font-size: 14px;
-      line-height: 24px;
+      font-size: 1rem;
       font-weight: 600;
       margin: 0;
     }
 
     h3 {
-      font-size: 70px;
-      color: var(--black);
+      font-size: 4rem;
+      color: var(--dark-green);
       font-weight: 700;
-      line-height: 1em;
+      line-height: 1.2;
 
       @include media("<md") {
-        font-size: 40px;
       }
     }
   }
@@ -48,7 +46,7 @@
     &:hover {
       &::before {
         position: absolute;
-        background-color: rgba(#000, 0.75);
+        background-color: rgba(#89cf2b, 0.75);
         top: 0;
         bottom: 0;
         left: 0;
@@ -69,10 +67,9 @@
       text-align: center;
       transition: all 1s ease;
       padding: 20px 0;
-      color: var(--base-color);
 
       h3 {
-        font-size: 30px;
+        font-size: 2rem;
         color: #fff;
         font-weight: 700;
       }
@@ -80,8 +77,8 @@
       button {
         outline: none;
         border: 0;
-        color: var(--black);
-        background-color: var(--base-color);
+        color: #fff;
+        background-color: var(--dark-green);
         border-radius: 10px;
         padding: 7.5px 20px;
         transition: all 500ms ease-out;
@@ -90,8 +87,8 @@
           border-radius: 0;
           border-top-left-radius: 35px;
           border-bottom-right-radius: 35px;
-          background-color: var(--primary-color);
-          color: var(--base-color);
+          background-color: var(--dark-green);
+          color: #fff;
         }
       }
     }
@@ -111,18 +108,18 @@
     margin: 0 auto;
     outline: none;
     border: 0;
-    color: var(--black);
-    background-color: var(--base-color);
+    color: #fff;
+    background-color: var(--dark-green);
     border-radius: 10px;
     padding: 7.5px 20px;
     transition: all 500ms ease-out;
+    letter-spacing: 1px;
+    font-size: 1.1rem;
 
     &:hover {
       border-radius: 0;
       border-top-left-radius: 35px;
       border-bottom-right-radius: 35px;
-      background-color: var(--primary-color);
-      color: var(--base-color);
     }
   }
 

@@ -24,19 +24,38 @@
     "PAGE_TITLE": "SAGEGO | Home",
     "META_DESCRIPTION": "Homepage",
     "HOME_CAROUSEL": {
-      "SLIDE_1_TITLE": "Saudi German Development and Investment Company Limited (SAGECO)",
-      "SLIDE_1_PARAGRAPH": "is a consultancy, advisory and project development company which was established in 1981. Originally came into being as a joint venture between the Governments of the Kingdom of Saudi Arabia (Ministry of Finance) and the Federal Republic of Germany (DEG, Cologne).",
-      "SLIDE_2_FIRST_TITLE": "Our Mission",
-      "SLIDE_2_FIRST_PARAGRAPH": "To provide clients with 'one-stop-solution' for all their management consulting, business advisory, market research and studies and regulatory requirements.",
-      "SLIDE_2_SECOND_TITLE": "Our vision",
-      "SLIDE_2_SECOND_PARAGRAPH": "To be the most recognized multidisciplinary research and consulting firm and strategic partner to our most sought-after clients.",
+      "SLIDE_1_TITLE": "Mubadala Agricultural Company",
+      "SLIDE_1_PARAGRAPH": "is a pioneer in the commercial exchange of agricultural products and the manufacturing industry of its locally, regionally, internationally and using the lastest technical means in the agricultural industry and its requirements while keeping development of the best scientific and commercial fields and working at the highest levels of professionalism and transparency in its business.",
+      "SLIDE_2_FIRST_TITLE": "A brief history of success",
+      "SLIDE_2_FIRST_PARAGRAPH": "The steering committe of MUBADALA AGRICULTURE has reviewed the proposed strategic planning during the meeting held on 27th November 2019 and analysed the current status through highlighting SWOT analysis focusing on strengths and weaknesses and available resources. Accordingly formulating the vision and mission of the company and designing the strategies and corporate objectives to realize it and applicable performance measurements.",
       "DISCOVER_MORE": "Discover more",
       "NEXT": "Next",
       "PREV": "Prev"
     },
+    "INTRODUCTION": {
+      "SMALL_HEADING": "Welcome to MUBADALA",
+      "BIG_HEADING": "The steering committee of MUBADALA AGRICULTURE has reviewed the proposed strategic planning during the meeting held on 27th November 2019",
+      "PARAGRAPH_1": "Analysed the current status through highlighting  SWOT analysis focusing on strengths and weaknesses and available resources.",
+      "PARAGRAPH_2": "Accordingly  formulating the vision and mission of the company and designing the strategies and corporate  objectives to realize it and applicable performance measurements.",
+      "PARAGRAPH_3": "The committee satisfied and  approved the proposal, therefore the company announces to all stakeholders about the strategy  and look forward to total understanding of the objectives and mechanism of strategy and to streamline  all of our effects to adhere to it and realize its objectives."
+    },
+    "MISSION": {
+      "SMALL_HEADING": "What we target",
+      "BIG_HEADING": "our mission",
+      "NUMBER_1": "01",
+      "NUMBER_2": "02",
+      "PARAGRAPH_1": "Focusing on advanced agricultural techniques to support farmers in production processes and support them.",
+      "PARAGRAPH_2": "Contribute to ensuring high-quality food security locally, regionally and internationally and work to add value  to partners and society in general through:",
+      "POINT_1": "Working to increase the company's share in the local, Arab and international market.",
+      "POINT_2": "Business investment development and expansion of marketing outlets and creating a  competitive work environment for the company’s employees.",
+      "POINT_3": "Providing the highest standards of product quality and services to the company's clients.",
+      "POINT_4": "Apply the most suitable and modern commercial tracks, preserve the surrounding  environment, and work in social responsibility activities."
+    },
     "EXP": {
-      "TITLE": "Experience and Know-How in Research & Consulting",
-      "PARAGRAPH": "Since its inception in 1981, SAGECO has carried out over 300 consultancy projects including Feasibility Studies, either independently or in partnership with renowned international consulting firms, whereby it has built up a substantial bank of expertise. These consultancy assignments have predominantly been rendered in the following sectors:",
+      "TITLE": "Experience and Know-How in AGROBUSINESS",
+      "PARAGRAPH_1": "The steering committee of MUBADALA AGRICULTURE has reviewed the proposed strategic planning during the meeting held on 27th November 2019 and analysed the current status through highlighting SWOT analysis focusing on strengths and weaknesses and available resources.",
+      "PARAGRAPH_2": "Accordingly formulating the vision and mission of the company and designing the strategies and corporate objectives to realize it and applicable performance measurements.",
+      "PARAGRAPH_3": "The committee satisfied and approved the proposal, therefore the company announces to all stakeholders about the strategy and look forward to total understanding of the objectives and mechanism of strategy and to streamline all of our effects to adhere to it and realize its objectives.",
       "REAL_STATE": "Real State",
       "INDUSTRIAL": "Industrial",
       "PERTROCHEMICALS": "Petrochemicals",
@@ -68,7 +87,7 @@
       "VAT": "VAT Implementation"
     },
     "TRUST": {
-      "HEADING": "SAGECO trusted by more than",
+      "HEADING": "MUBADALA trusted by more than",
       "CLIENTS_NUMBER": "255",
       "CLIENTS": "clients",
       "PROJECTS": "projects",

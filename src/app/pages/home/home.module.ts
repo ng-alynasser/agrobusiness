@@ -11,6 +11,8 @@ import { ClientsCarouselComponent } from './components/clients-carousel/clients-
 import { VisionSectionComponent } from './components/vision-section/vision-section.component';
 import { PartnersCarouselComponent } from './components/partners-carousel/partners-carousel.component';
 import { QualitySectionComponent } from './components/quality-section/quality-section.component';
+import { IntroductionComponent } from './components/introduction/introduction.component';
+import { MissionComponent } from './components/mission/mission.component';
 
 @NgModule({
   declarations: [
@@ -23,6 +25,8 @@ import { QualitySectionComponent } from './components/quality-section/quality-se
     VisionSectionComponent,
     PartnersCarouselComponent,
     QualitySectionComponent,
+    IntroductionComponent,
+    MissionComponent,
   ],
   imports: [SharedModule, HomeRoutingModule, CarouselModule],
 })

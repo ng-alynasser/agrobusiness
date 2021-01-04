@@ -1,17 +1,18 @@
 @import "src/styles";
 
 .experience {
-  padding: 70px 0 65px;
-  background-color: var(--base-color);
+  padding: 70px 0;
+  background-color: rgba(#caf181, 0.5);
 
   @include media("<md") {
     padding: 40px 0;
   }
 
   h2 {
-    font-size: 55px;
-    color: var(--dark-gray);
+    font-size: 4rem;
+    color: var(--dark-green);
     margin-bottom: 40px;
+    text-align: center;
 
     @include media("<md") {
       font-size: 40px;
@@ -22,9 +23,21 @@
   }
 
   p {
+    position: relative;
     color: var(--black);
-    font-size: 19px;
-    margin-bottom: 0;
+    font-size: 1.2rem;
+
+    &::before {
+      font-size: 1.2rem;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: -30px;
+      right: 0;
+      font-weight: 600;
+      content: "☐";
+      color: var(--dark-green);
+    }
 
     @include media("<md") {
       font-size: 15px;

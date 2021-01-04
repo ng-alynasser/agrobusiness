@@ -2,7 +2,7 @@
 
 .header {
   &__wrapper {
-    padding: 1.8em;
+    padding: 1em;
     background-color: #fff;
     position: relative;
 
@@ -20,7 +20,7 @@
       .bar3 {
         width: 35px;
         height: 5px;
-        background-color: var(--base-color);
+        background-color: var(--dark-green);
         margin: 6px 0;
         transition: 0.4s;
       }
@@ -85,10 +85,9 @@
 
   &__logo {
     position: relative;
-    z-index: 100;
     img {
-      height: 100%;
-      width: 100%;
+      height: 95px;
+      width: 95px;
     }
   }
 
@@ -115,7 +114,7 @@
           bottom: 0;
           right: 0;
           border-radius: 7px;
-          background: var(--base-color);
+          background: var(--dark-green);
           content: "";
           transform: scaleX(0.5);
           opacity: 0;
@@ -125,7 +124,7 @@
       }
 
       &:hover > a {
-        color: var(--black);
+        color: #fff;
       }
 
       &:hover > a:before {
@@ -140,7 +139,7 @@
       }
 
       & > a {
-        color: var(--black);
+        color: #fff;
       }
     }
   }
@@ -152,11 +151,12 @@
       fa-icon {
         padding: 12px;
         border-radius: 50%;
-        background: rgba(gray, 0.1);
+        background: var(--medium-green);
+        color: #fff;
         transition: all 1s ease;
 
         &:hover {
-          background: var(--primary-color);
+          background: var(--dark-green);
           color: #fff;
         }
       }

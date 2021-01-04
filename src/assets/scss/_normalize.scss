@@ -1,13 +1,14 @@
 :root {
-  --main-font: "Barlow", sans-serif;
+  --main-font: Verdana, sans-serif;
   --heading-font: "Amatic SC", cursive;
-  --base-color: #eddd5e;
-  --base-color-rgb: 237, 221, 94;
-  --primary-color: #5b8c51;
-  --primary-color-rgb: 91, 140, 81;
+  --light-green: #caf181;
+  --medium-green: #89cf2b;
+  --dark-green: #2d7516;
+
+  --base-color: #89cf2b;
+  --primary-color: #2d7516;
   --black: #404a3d;
-  --black-rgb: 64, 74, 61;
-  --dark-gray: #878986;
+  --dark-gray: #333;
   --light-gray: #c5c9c4;
 }
 

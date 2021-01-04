@@ -1,8 +1,19 @@
 @import "src/styles";
 
 .mission {
-  padding: 40px;
-  background-color: rgba(#caf181, 0.5);
+  padding: 70px;
+  position: relative;
+
+  img {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    opacity: 0.1;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+  }
+
   &__block-title {
     margin-bottom: 55px;
     text-align: center;
@@ -32,18 +43,19 @@
     p {
       position: relative;
       color: var(--dark-gray);
-      font-size: 1.3rem;
+      font-size: 1.2rem;
+      font-weight: 700;
       margin-bottom: 25px;
 
       &::before {
         font-size: 2rem;
+        font-weight: 700;
         position: absolute;
         top: 0;
         bottom: 0;
         left: -40px;
         right: 0;
         font-weight: 600;
-        content: "✪";
         color: var(--dark-green);
         content: "➀";
       }
@@ -68,7 +80,8 @@
     ul {
       margin: 0 auto;
       li {
-        font-size: 1.3rem;
+        font-size: 1.2rem;
+        font-weight: 500;
         position: relative;
         line-height: 1.8;
 

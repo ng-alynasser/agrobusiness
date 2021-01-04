@@ -1,7 +1,7 @@
 @import "src/styles";
 
-.introduction {
-  padding: 70px 0 10px;
+.objectives {
+  padding: 70px;
 
   &__block-title {
     margin-bottom: 55px;
@@ -21,36 +21,34 @@
     }
 
     h3 {
-      font-size: 3.5rem;
+      font-size: 4rem;
       color: var(--dark-green);
       font-weight: 700;
       line-height: 1.2;
     }
   }
 
-  &__paragraphs {
+  &__cards {
     article {
       position: relative;
       font-size: 1.2rem;
-      letter-spacing: 1px;
-      line-height: 1.6;
-      color: var(--black);
-      padding: 5px;
+      font-weight: 700;
+      border-radius: 10px;
+
+      &:not(:first-of-type) {
+        margin-top: 20px;
+      }
 
       &::before {
-        font-size: 25px;
+        font-size: 2rem;
         position: absolute;
         top: 0;
         bottom: 0;
-        left: -30px;
+        left: -40px;
         right: 0;
         font-weight: 600;
-        content: "☐";
         color: var(--dark-green);
-
-        @include media("<md") {
-          display: none;
-        }
+        content: "✔";
       }
     }
   }

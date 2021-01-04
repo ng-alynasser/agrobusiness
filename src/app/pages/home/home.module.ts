@@ -13,6 +13,7 @@ import { PartnersCarouselComponent } from './components/partners-carousel/partne
 import { QualitySectionComponent } from './components/quality-section/quality-section.component';
 import { IntroductionComponent } from './components/introduction/introduction.component';
 import { MissionComponent } from './components/mission/mission.component';
+import { ObjectivesComponent } from './components/objectives/objectives.component';
 
 @NgModule({
   declarations: [
@@ -27,6 +28,7 @@ import { MissionComponent } from './components/mission/mission.component';
     QualitySectionComponent,
     IntroductionComponent,
     MissionComponent,
+    ObjectivesComponent,
   ],
   imports: [SharedModule, HomeRoutingModule, CarouselModule],
 })

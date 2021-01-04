@@ -1,0 +1,111 @@
+<footer class="footer">
+  <div class="footer__image">
+    <img src="assets/images/resources/site-footer-farm.png" alt="Farm Image" />
+  </div>
+
+  <div
+    class="container"
+    fxLayout="row wrap"
+    fxLayoutAlign="space-between start"
+  >
+    <div
+      class="footer__about-widget wow fadeInUp"
+      fxFlex="25"
+      fxFlex.lt-sm="100"
+      data-wow-delay="100ms"
+    >
+      <h3 class="footer__title">{{ "HEADER.ABOUT" | translate }}</h3>
+      <p class="footer__about-text">
+        {{ "HOME.HOME_CAROUSEL.SLIDE_1_PARAGRAPH" | translate }}
+      </p>
+    </div>
+
+    <div
+      class="footer__explore wow fadeInUp"
+      fxFlex="10"
+      fxFlex.lt-sm="100"
+      data-wow-delay="200ms"
+    >
+      <h3 class="footer__title">{{ "FOOTER.EXPLORE" | translate }}</h3>
+      <ul>
+        <li>
+          <a routerLink="/about">{{ "HEADER.ABOUT" | translate }}</a>
+        </li>
+        <li>
+          <a routerLink="/services">{{ "HEADER.SERVICES" | translate }}</a>
+        </li>
+        <li>
+          <a routerLink="/projects">{{ "HEADER.PROJECTS" | translate }}</a>
+        </li>
+        <li>
+          <a routerLink="/contact">{{ "HEADER.CONTACT" | translate }}</a>
+        </li>
+      </ul>
+    </div>
+
+    <!-- <div
+      class="footer__news wow fadeInUp"
+      fxFlex.lt-sm="100"
+      fxFlex="30"
+      data-wow-delay="300ms"
+    >
+      <h3 class="footer__title">{{ "FOOTER.NEWS" | translate }}</h3>
+      <ul>
+        <li fxLayout fxLayoutAlign="space-between center">
+          <div class="footer__news-image">
+            <img src="assets/images/resources/footer-1-img-1.jpg" alt="" />
+          </div>
+          <div>
+            <p class="footer__news-text">
+              {{ "FOOTER.NEWS_TITLE_1" | translate }}
+            </p>
+            <p class="footer__news-date">{{ "FOOTER.DATE" | translate }}</p>
+          </div>
+        </li>
+        <li fxLayout fxLayoutAlign="space-between center">
+          <div class="footer__news-image">
+            <img src="assets/images/resources/footer-1-img-2.jpg" alt="" />
+          </div>
+          <div>
+            <p class="footer__news-text">
+              {{ "FOOTER.NEWS_TITLE_2" | translate }}
+            </p>
+            <p class="footer__news-date">{{ "FOOTER.DATE" | translate }}</p>
+          </div>
+        </li>
+      </ul>
+    </div> -->
+
+    <div
+      class="footer__contact wow fadeInUp"
+      fxFlex="20"
+      fxFlex.lt-sm="100"
+      data-wow-delay="400ms"
+    >
+      <h3 class="footer__title">{{ "HEADER.CONTACT" | translate }}</h3>
+      <p>{{ "FOOTER.ADDRESS" | translate }}</p>
+      <a href=""> needhelp@agrikol.com </a>
+      <a href="">666 888 0000</a>
+
+      <div fxLayout fxLayoutAlign="space-around center" class="footer__social">
+        <a>
+          <fa-icon [icon]="['fab', 'facebook-square']"></fa-icon>
+        </a>
+        <a href="">
+          <fa-icon [icon]="['fab', 'twitter']"></fa-icon>
+        </a>
+        <a href="">
+          <fa-icon [icon]="['fab', 'instagram']"></fa-icon>
+        </a>
+        <a href="">
+          <fa-icon [icon]="['fab', 'dribbble']"></fa-icon>
+        </a>
+      </div>
+    </div>
+  </div>
+</footer>
+<div class="footer__bottom">
+  <p class="footer__bottom-copyright">
+    {{ "FOOTER.COPY_RIGHTS" | translate }} &copy; SAGECO CO, {{ currentYear }}.
+  </p>
+</div>

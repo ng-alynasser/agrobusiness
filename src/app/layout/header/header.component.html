@@ -1,0 +1,107 @@
+<header class="header__wrapper" fxLayout fxLayoutAlign="space-between center">
+  <a
+    routerLink="/home"
+    class="header__logo"
+    fxLayout
+    fxLayoutAlign="center center"
+    fxFlex="10"
+    fxFlex.lt-sm="20"
+  >
+    <img src="assets/images/resources/logo.png" alt="" />
+  </a>
+  <ul
+    class="header__nav"
+    fxLayout
+    fxLayoutAlign="space-around center"
+    fxHide.lt-md
+  >
+    <li routerLink="/home" routerLinkActive="active">
+      <a> {{ "HEADER.HOME" | translate }}</a>
+    </li>
+    <li routerLink="/services" routerLinkActive="active">
+      <a>{{ "HEADER.SERVICES" | translate }}</a>
+    </li>
+    <!-- <li routerLink="/projects" routerLinkActive="active">
+      <a>{{ "HEADER.PROJECTS" | translate }}</a>
+    </li>
+    <li routerLink="/news" routerLinkActive="active">
+      <a>{{ "HEADER.NEWS" | translate }}</a>
+    </li> -->
+    <li routerLink="/gallery" routerLinkActive="active">
+      <a>{{ "HEADER.GALLERY" | translate }}</a>
+    </li>
+    <!-- <li routerLink="/choose-us" routerLinkActive="active">
+      <a>{{ "HEADER.CHOOSE_US" | translate }}</a>
+    </li> -->
+    <li routerLink="/about" routerLinkActive="active">
+      <a>{{ "HEADER.ABOUT" | translate }}</a>
+    </li>
+    <li routerLink="/contact" routerLinkActive="active">
+      <a>{{ "HEADER.CONTACT" | translate }}</a>
+    </li>
+  </ul>
+
+  <ul
+    class="header__social"
+    fxFlex="15"
+    fxLayout
+    fxLayoutAlign="space-around center"
+    fxHide.lt-md
+  >
+    <li>
+      <fa-icon [icon]="['fab', 'facebook-square']"></fa-icon>
+    </li>
+    <li>
+      <fa-icon [icon]="['fab', 'twitter']"></fa-icon>
+    </li>
+    <li>
+      <fa-icon [icon]="['fab', 'instagram']"></fa-icon>
+    </li>
+    <li (click)="onToggleLanguage()">
+      <fa-icon [icon]="['fab', 'dribbble']"></fa-icon>
+    </li>
+  </ul>
+
+  <div
+    fxFlex="12"
+    class="icon-navbar"
+    [class]="{ change: toggled }"
+    fxHide.gt-md
+    #navbarIcon
+    (click)="toggleIcon()"
+  >
+    <div class="bar1"></div>
+    <div class="bar2"></div>
+    <div class="bar3"></div>
+  </div>
+
+  <div class="responsive-navbar" [class]="{ show: toggled }">
+    <a routerLink="/home" (click)="toggleIcon()" routerLinkActive="active">
+      {{ "HEADER.HOME" | translate }}</a
+    >
+    <a
+      routerLink="/services"
+      (click)="toggleIcon()"
+      routerLinkActive="active"
+      >{{ "HEADER.SERVICES" | translate }}</a
+    >
+    <!-- <a
+      routerLink="/projects"
+      (click)="toggleIcon()"
+      routerLinkActive="active"
+      >{{ "HEADER.PROJECTS" | translate }}</a
+    >
+    <a routerLink="/news" (click)="toggleIcon()" routerLinkActive="active">{{
+      "HEADER.NEWS" | translate
+    }}</a> -->
+    <a routerLink="/gallery" (click)="toggleIcon()" routerLinkActive="active">{{
+      "HEADER.GALLERY" | translate
+    }}</a>
+    <a routerLink="/about" (click)="toggleIcon()" routerLinkActive="active">{{
+      "HEADER.ABOUT" | translate
+    }}</a>
+    <a routerLink="/contact" (click)="toggleIcon()" routerLinkActive="active">{{
+      "HEADER.CONTACT" | translate
+    }}</a>
+  </div>
+</header>

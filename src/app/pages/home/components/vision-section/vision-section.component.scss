@@ -1,0 +1,42 @@
+@import "src/styles";
+
+.vision {
+  padding: 120px 0 60px 0;
+  background-image: url("http://res.cloudinary.com/alynasser/image/upload/v1609436677/sageco-services/sageco-homepage/vision-bg_dwqfid.jpg");
+  position: relative;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  overflow: hidden;
+  padding: 130px 0 px;
+  background-size: cover;
+
+  @include media("<md") {
+    padding: 75px 0;
+  }
+
+  h2 {
+    text-align: center;
+    color: var(--base-color);
+    font-size: 90px;
+    font-weight: 700;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+
+    @include media("<md") {
+      font-size: 60px;
+    }
+  }
+
+  p {
+    color: #ffff;
+    text-align: center;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-size: 18px;
+
+    @include media("<md") {
+      font-size: 12px;
+    }
+  }
+}

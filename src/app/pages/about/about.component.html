@@ -1,0 +1,35 @@
+<app-about-header></app-about-header>
+<section
+  class="about container"
+  fxLayout="row wrap"
+  fxLayoutAlign="space-between"
+>
+  <div
+    fxFlex="40"
+    fxFlex.lt-sm="100"
+    class="about__block-title wow fadeInDown"
+    data-wow-delay="500ms"
+  >
+    <p>{{ "ABOUT.ABOUT_SAGECO" | translate }}</p>
+    <h3>
+      {{ "ABOUT.BIG_HEADING" | translate }}
+    </h3>
+    <div class="leaf">
+      <img src="assets/images/resources/leaf.png" alt="" />
+    </div>
+  </div>
+
+  <div class="about__content" fxFlex="50" fxFlex.lt-sm="100">
+    <p class="animate__animated animate__fadeInRight animate__delay-1s">
+      {{ "ABOUT.SUB_HEADING_1" | translate }}
+    </p>
+
+    <p class="animate__animated animate__fadeInRight animate__delay-1s">
+      {{ "ABOUT.SUB_HEADING_2" | translate }}
+    </p>
+
+    <p class="animate__animated animate__fadeInRight animate__delay-1s">
+      {{ "ABOUT.SUB_HEADING_3" | translate }}
+    </p>
+  </div>
+</section>

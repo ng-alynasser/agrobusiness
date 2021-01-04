@@ -1,0 +1,118 @@
+<section class="banner">
+  <div
+    class="banner__circle-1"
+    fxHide.lt-sm
+    [fxHide]="(translateService.onLangChange | async)?.lang === 'ar'"
+  >
+    <img src="assets/images/home-slider/round_1.png" alt="" />
+  </div>
+  <div class="banner__certification" fxHide.lt-md>
+    <img src="assets/images/home-slider/certified_logo.png" alt="" />
+  </div>
+
+  <owl-carousel-o [options]="customOptions" #owlCar>
+    <ng-template carouselSlide>
+      <div fxLayout fxLayoutAlign="center space-between">
+        <div
+          [fxFlexOrder]="isRtl ? 1 : 2"
+          fxFlex="50"
+          fxFlex.lt-sm="100"
+          class="banner__content"
+          [dir]="isRtl ? 'rtl' : 'ltr'"
+        >
+          <div
+            class="banner__large-title animate__animated animate__fadeInUp animate__delay-1s"
+          >
+            {{ "HOME.HOME_CAROUSEL.SLIDE_1_TITLE" | translate }}
+          </div>
+          <div
+            class="banner__leafs animate__animated animate__fadeInUp animate__delay-1s animate__slow"
+          >
+            <img src="assets/images/home-slider/slider-5-leafs.png" alt="" />
+          </div>
+          <p
+            class="banner__text animate__animated animate__fadeInUp animate__delay-2s"
+          >
+            {{ "HOME.HOME_CAROUSEL.SLIDE_1_PARAGRAPH" | translate }}
+          </p>
+          <div
+            class="banner__discover-btn animate__animated animate__fadeInUp animate__delay-2s aniamte__slow"
+          >
+            <a routerLink="/services">{{
+              "HOME.HOME_CAROUSEL.DISCOVER_MORE" | translate
+            }}</a>
+          </div>
+        </div>
+        <div
+          class="banner__bg animate__animated animate__fadeIn animate__slower"
+          fxLayout
+          fxLayoutAlign="center center"
+          fxFlex="50"
+          fxHide.lt-sm
+          [fxFlexOrder]="isRtl ? 2 : 1"
+        >
+          <img src="assets/images/home-slider/slide-1.jpg" />
+        </div>
+      </div>
+    </ng-template>
+    <ng-template carouselSlide>
+      <div fxLayout fxLayoutAlign="center stretch">
+        <div
+          fxFlex="50"
+          fxFlex.lt-sm="100"
+          class="banner__content"
+          [fxFlexOrder]="isRtl ? 1 : 2"
+          [dir]="isRtl ? 'rtl' : 'ltr'"
+        >
+          <div
+            class="banner__large-title animate__animated animate__fadeInUp animate__delay-1s animate__slow"
+          >
+            {{ "HOME.HOME_CAROUSEL.SLIDE_2_FIRST_TITLE" | translate }}
+          </div>
+          <div
+            class="banner__leafs animate__animated animate__fadeInUp animate__delay-2s animate__slow"
+          >
+            <img src="assets/images/home-slider/slider-5-leafs.png" alt="" />
+          </div>
+          <p
+            class="banner__text animate__animated animate__fadeInUp animate__delay-2s animate__slow"
+          >
+            {{ "HOME.HOME_CAROUSEL.SLIDE_2_FIRST_PARAGRAPH" | translate }}
+          </p>
+
+          <div
+            class="banner__large-title animate__animated animate__fadeInUp animate__delay-1s animate__slow"
+          >
+            {{ "HOME.HOME_CAROUSEL.SLIDE_2_SECOND_TITLE" | translate }}
+          </div>
+          <div
+            class="banner__leafs animate__animated animate__fadeInUp animate__delay-2s animate__slow"
+          >
+            <img src="assets/images/home-slider/slider-5-leafs.png" alt="" />
+          </div>
+          <p
+            class="banner__text animate__animated animate__fadeInUp animate__delay-2s animate__slow"
+          >
+            {{ "HOME.HOME_CAROUSEL.SLIDE_2_SECOND_PARAGRAPH" | translate }}
+          </p>
+        </div>
+        <div
+          class="banner__bg animate__animated animate__fadeIn animate__slower"
+          fxFlex="50"
+          fxHide.lt-sm
+          [fxFlexOrder]="isRtl ? 2 : 1"
+        >
+          <img src="assets/images/home-slider/slide-2.jpg" />
+        </div>
+      </div>
+    </ng-template>
+  </owl-carousel-o>
+  <div class="banner__buttons">
+    <button class="btn-prev" (click)="owlCar.prev()">
+      {{ "HOME.HOME_CAROUSEL.PREV" | translate }}
+    </button>
+    <button class="btn-next" (click)="owlCar.next()">
+      {{ "HOME.HOME_CAROUSEL.NEXT" | translate }}
+    </button>
+  </div>
+</section>

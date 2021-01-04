@@ -1,0 +1,43 @@
+@import "src/styles";
+
+.contact-cards {
+  padding: 80px 0;
+
+  @include media("<md") {
+    padding: 40px;
+  }
+}
+
+.contact-card {
+  background-color: #fff;
+  transition: 500ms all ease;
+  padding: 40px;
+
+  @include media("<md") {
+    text-align: center;
+  }
+
+  h3 {
+    text-transform: uppercase;
+    color: var(--black);
+    font-size: 30px;
+  }
+
+  p,
+  a {
+    margin: 0;
+  }
+
+  a {
+    display: block;
+    transition: all 500ms ease;
+
+    &:hover {
+      color: var(--primary-color);
+    }
+  }
+
+  &:hover {
+    background-color: #f5f0e9;
+  }
+}

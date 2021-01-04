@@ -1,0 +1,91 @@
+<div class="contact">
+  <div
+    class="container"
+    fxLayout="row wrap"
+    fxLayoutAlign="space-between start"
+  >
+    <div
+      class="contact-form-wrap"
+      fxFlex="55"
+      fxFlex.lt-sm="100"
+      fxFlexOrder.lt-sm="2"
+    >
+      <div class="contact__block-title">
+        <p>{{ "CONTACT.CONTACT_US" | translate }}</p>
+        <h3>{{ "CONTACT.WRITE_MESSAGE" | translate }}</h3>
+        <div class="leaf">
+          <img src="assets/images/resources/leaf.png" alt="" />
+        </div>
+      </div>
+      <form
+        fxLayout="row wrap"
+        fxLayoutAlign="space-evenly"
+        class="contact-form-inputs"
+      >
+        <div class="input-group" fxFlex="45" fxFlex.lt-sm="100">
+          <input
+            type="text"
+            name="name"
+            [placeholder]="'CONTACT.NAME' | translate"
+          />
+        </div>
+        <div class="input-group" fxFlex="45" fxFlex.lt-sm="100">
+          <input
+            type="text"
+            name="email"
+            [placeholder]="'CONTACT.EMAIL' | translate"
+          />
+        </div>
+        <div class="input-group" fxFlex="45" fxFlex.lt-sm="100">
+          <input
+            type="text"
+            name="phone"
+            [placeholder]="'CONTACT.NUMBER' | translate"
+          />
+        </div>
+        <div class="input-group" fxFlex="45" fxFlex.lt-sm="100">
+          <input
+            type="text"
+            name="subject"
+            [placeholder]="'CONTACT.SUBJECT' | translate"
+          />
+        </div>
+        <div class="input-group" fxFlex="95" fxFlex.lt-sm="100">
+          <textarea
+            name="message"
+            [placeholder]="'CONTACT.MESSAGE' | translate"
+          ></textarea>
+        </div>
+        <div class="input-group contact-button">
+          <button type="submit" class="contact-button">
+            {{ "CONTACT.SEND" | translate }}
+          </button>
+        </div>
+      </form>
+    </div>
+
+    <div
+      class="contact-questions"
+      fxFlex="40"
+      fxFlex.lt-sm="100"
+      fxFlexOrder.lt-sm="1"
+    >
+      <div fxLayout fxLayoutAlign="center center" class="contact-image">
+        <img
+          src="http://res.cloudinary.com/alynasser/image/upload/v1609436723/sageco-services/sageco-homepage/ask-question_lixgrh.jpg"
+          alt=""
+        />
+      </div>
+      <div
+        class="contact__block-title questions-title wow fadeInDown"
+        data-wow-delay="500ms"
+      >
+        <p>{{ "CONTACT.CONTACT_US" | translate }}</p>
+        <h3>{{ "CONTACT.HAVE_QUESTION" | translate }}</h3>
+        <div class="leaf">
+          <img src="assets/images/resources/leaf.png" alt="" />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

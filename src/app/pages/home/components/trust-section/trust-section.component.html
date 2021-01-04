@@ -1,0 +1,44 @@
+<section class="trust">
+  <div
+    class="container"
+    fxLayout="row wrap"
+    fxLayoutAlign="space-between center"
+  >
+    <h2 class="trust__text" fxFlex="50" fxFlex.lt-sm="100">
+      {{ "HOME.TRUST.HEADING" | translate }}
+      <span>{{ "HOME.TRUST.CLIENTS_NUMBER" | translate }}</span>
+      {{ "HOME.TRUST.CLIENTS" | translate }}
+    </h2>
+    <ul
+      class="trust__counter-box wow fadeInRight"
+      data-wow-delay="300ms"
+      fxFlex="50"
+      fxLayout
+      fxFlex.lt-sm="100"
+      fxLayoutAlign="space-evenly"
+    >
+      <li>
+        <div
+          class="trust__counter-box__icon"
+          fxLayout
+          fxLayoutAlign="center center"
+        >
+          <fa-icon [icon]="['fas', 'seedling']"></fa-icon>
+        </div>
+        <h3>{{ "HOME.TRUST.PROJECTS_NUMBER" | translate }}</h3>
+        <p>{{ "HOME.TRUST.PROJECTS" | translate }}</p>
+      </li>
+      <li>
+        <div
+          class="trust__counter-box__icon"
+          fxLayout
+          fxLayoutAlign="center center"
+        >
+          <fa-icon [icon]="['fas', 'project-diagram']"></fa-icon>
+        </div>
+        <h3>{{ "HOME.TRUST.PRODUCTS_NUMBER" | translate }}</h3>
+        <p>{{ "HOME.TRUST.PRODUCTS" | translate }}</p>
+      </li>
+    </ul>
+  </div>
+</section>

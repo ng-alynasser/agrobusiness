@@ -1,0 +1,144 @@
+{
+  "HEADER": {
+    "HOME": "Home",
+    "SERVICES": "Services",
+    "PROJECTS": "Projects",
+    "NEWS": "News",
+    "GALLERY": "Gallery",
+    "CHOOSE_US": "Why choose us",
+    "ABOUT": "About",
+    "CONTACT": "Contact",
+    "WHO_ARE_WE": "Who are we"
+  },
+  "FOOTER": {
+    "EXPLORE": "Explore",
+    "NEWS": "News",
+    "NEWS_TITLE_1": "Learn 10 Best Tips for Investment in 2021",
+    "NEWS_TITLE_2": "Learn 10 Best Tips for Investment in 2021",
+    "DATE": "2 Jan, 2021",
+    "ADDRESS": "Riyadh, Saudi Arabia",
+    "EMAIL_ADDRESS": "Email Address",
+    "COPY_RIGHTS": "All copyrights"
+  },
+  "HOME": {
+    "PAGE_TITLE": "SAGEGO | Home",
+    "META_DESCRIPTION": "Homepage",
+    "HOME_CAROUSEL": {
+      "SLIDE_1_TITLE": "Saudi German Development and Investment Company Limited (SAGECO)",
+      "SLIDE_1_PARAGRAPH": "is a consultancy, advisory and project development company which was established in 1981. Originally came into being as a joint venture between the Governments of the Kingdom of Saudi Arabia (Ministry of Finance) and the Federal Republic of Germany (DEG, Cologne).",
+      "SLIDE_2_FIRST_TITLE": "Our Mission",
+      "SLIDE_2_FIRST_PARAGRAPH": "To provide clients with 'one-stop-solution' for all their management consulting, business advisory, market research and studies and regulatory requirements.",
+      "SLIDE_2_SECOND_TITLE": "Our vision",
+      "SLIDE_2_SECOND_PARAGRAPH": "To be the most recognized multidisciplinary research and consulting firm and strategic partner to our most sought-after clients.",
+      "DISCOVER_MORE": "Discover more",
+      "NEXT": "Next",
+      "PREV": "Prev"
+    },
+    "EXP": {
+      "TITLE": "Experience and Know-How in Research & Consulting",
+      "PARAGRAPH": "Since its inception in 1981, SAGECO has carried out over 300 consultancy projects including Feasibility Studies, either independently or in partnership with renowned international consulting firms, whereby it has built up a substantial bank of expertise. These consultancy assignments have predominantly been rendered in the following sectors:",
+      "REAL_STATE": "Real State",
+      "INDUSTRIAL": "Industrial",
+      "PERTROCHEMICALS": "Petrochemicals",
+      "WATER": "Water Technologies",
+      "CONSTRUCTION": "Construction Products",
+      "AUTOMOBILE": "Automobile",
+      "ENGINEERING": "Engineering",
+      "PLASTICS": "Plastics",
+      "MEDICAL": "Medical",
+      "CONSUMER": "Consumer Products",
+      "ENERGY": "Energy",
+      "TELECOMMUNICATION": "Telecommunication",
+      "CHAIN": "Supply Chain Management",
+      "EDUCATION": "Education & IT",
+      "FOOD": "Food & Agriculture"
+    },
+    "SERVICES": {
+      "SMALL_HEADING": "What we do",
+      "BIG_HEADING": "Services we offer",
+      "EXPLORE": "Explore more",
+      "READ_MORE": "Read more",
+      "DILLIGENCE": "Financial Due Diligence",
+      "EVALUATION": "Financial Evaluation",
+      "INV_ADVISORY": "Investment Advisory",
+      "DEV_ADVISORY": "Development Advisory",
+      "INTERNAL": "Internal Audit",
+      "MODELING": "Financial Appraisals & Modeling",
+      "IFRS": "IFRS Implementation",
+      "VAT": "VAT Implementation"
+    },
+    "TRUST": {
+      "HEADING": "SAGECO trusted by more than",
+      "CLIENTS_NUMBER": "255",
+      "CLIENTS": "clients",
+      "PROJECTS": "projects",
+      "PROJECTS_NUMBER": "870",
+      "PRODUCTS": "products",
+      "PRODUCTS_NUMBER": "1750"
+    },
+    "CLIENTS": {
+      "SMALL_HEADING": "who shares our success",
+      "BIG_HEADING": "meet the clients"
+    },
+    "PARTNERS": {
+      "SMALL_HEADING": "who believes in us",
+      "BIG_HEADING": "meet the partners"
+    },
+    "QUALITY": {
+      "HEADING": "we guarantee to provide you the highest quality products that meet your expectations.",
+      "CONTACT_US": "contact us"
+    }
+  },
+  "SERVICES": {
+    "PAGE_TITLE": "SAGEO | Services",
+    "META_DESCRIPTION": "About us page",
+    "FINANCIAL_ADVISORY": "Financial Advisory",
+    "THERE_IS_MORE": "And there's more",
+    "OUTSOURCING": "Outsourcing And Other Specialized Business Services",
+    "RESTRUCTURING": "Economy Restructuring And Short/Long - Term Outsourcing of Experienced Professionals",
+    "EVEN_MORE": "There's even more",
+    "MANAGEMENT_CONSULTANCY": "Management Consultancy",
+    "FISCAL": "Fiscal Adjustment Program",
+    "PROJECT_ADMINSTRATION": "Project Administration",
+    "POST_MERGER": "Post-Merger Integration",
+    "SUPPLY_CHAIN": "Supply Chain Management",
+    "INVENTORY_MANAGEMENT": "Inventory Management and Registry",
+    "LAST_NOT_LEAST": "Last but not least",
+    "RESEARCH": "Research and studies",
+    "FEASIBILITY_STUDIES": "Feasibility Studies.",
+    "MARKET_STUDIES": "Market Opportunity Studies.",
+    "SECTOR_STUDIES": "Sector and Countrywide Studies.",
+    "ASSESSMENT_STUDIES": "Assessment Studies.",
+    "INDUSTRIAL_REPORTS": "Industrial License Application Reports.",
+    "FOOD_AGRI": "Food and Agriculture.",
+    "MARKET_RESEARCH": "Market Survey Research (Qualitative and Qunatitative).",
+    "EDUCATION_SERVICES": "Education and IT Services (Procurement Intelligence, Supply Chain Management)."
+  },
+  "GALLERY": {
+    "PAGE_TITLE": "SAGEO | Gallery",
+    "META_DESCRIPTION": "About us page"
+  },
+  "ABOUT": {
+    "PAGE_TITLE": "SAGECO | About",
+    "META_DESCRIPTION": "About us page",
+    "ABOUT_SAGECO": "About SAGECO",
+    "BIG_HEADING": "WE’RE PROVIDING THE BEST consultancy, advisory and project development services.",
+    "SUB_HEADING_1": "Saudi German Development and Investment Company Limited (SAGECO) is a consultancy, advisory and project development company which wasestablished in 1981.",
+    "SUB_HEADING_2": "The Company originally came into being as a joint venture between the Governments of the Kingdom of Saudi Arabia (Ministry of Finance) and the Federal Republic of Germany (DEG , Cologne) to promote cooperation between the Saudi and German private sectors and provide the requisite consultancy services. After expiration of the 25-years' mandatory period of the Joint Venture, the company was privatized.",
+    "SUB_HEADING_3": "SAGECO's activities are governed by the Company's philosophy which is, to uphold the values of Integrity, Quality and Professionalism . Its services are carried out in a reliable, professional and cost-effective way."
+  },
+  "CONTACT": {
+    "PAGE_TITLE": "SAGECO | Contact",
+    "META_DESCRIPTION": "Contact us page",
+    "GET_IN_TOUCH": "GET IN TOUCH",
+    "CONTACT_US": "Contact with us",
+    "WRITE_MESSAGE": "Write us a message",
+    "SEND": "send",
+    "HAVE_QUESTION": "Have a question? don't hesitate to send us a message.",
+    "NAME": "Name",
+    "EMAIL": "Email",
+    "NUMBER": "Phone number",
+    "SUBJECT": "Subject",
+    "MESSAGE": "Message"
+  }
+}

@@ -1,0 +1,158 @@
+@import "src/styles";
+
+.contact {
+  .contact-form-wrap {
+    position: relative;
+    padding: 120px 0;
+    margin-right: -20px;
+    z-index: 1;
+
+    @include media("<md") {
+      padding: 60px 0 30px;
+    }
+
+    &::before {
+      border-top-right-radius: 5px;
+      position: absolute;
+      content: "";
+      top: 0;
+      left: -10000px;
+      bottom: 0;
+      right: 0;
+      background: var(--primary-color);
+      z-index: -1;
+
+      @include media("<md") {
+        display: none;
+      }
+    }
+  }
+
+  &__block-title {
+    margin-bottom: 55px;
+    text-transform: uppercase;
+    color: #fff;
+
+    @include media("<md") {
+      color: var(--primary-color);
+      text-align: center;
+      margin-bottom: 35px;
+    }
+
+    p {
+      letter-spacing: 0.2em;
+      font-size: 14px;
+      line-height: 24px;
+      font-weight: 600;
+      margin: 0;
+    }
+
+    h3 {
+      font-size: 70px;
+      font-weight: 700;
+      line-height: 1em;
+
+      @include media("<md") {
+        font-size: 50px;
+      }
+    }
+  }
+
+  .contact-questions {
+    @include media("<md") {
+      padding: 0;
+    }
+
+    .questions-title {
+      p {
+        margin-top: 30px;
+        color: var(--primary-color);
+      }
+
+      h3 {
+        color: var(--black);
+
+        @include media("<md") {
+          font-size: 30px;
+        }
+      }
+    }
+
+    .contact-image {
+      border: 2px solid var(--primary-color);
+      padding: 4px;
+
+      img {
+        width: 100%;
+        height: 100%;
+        object-position: center;
+      }
+    }
+  }
+
+  .contact-form-inputs {
+    margin-right: 60px;
+    @include media("<md") {
+      margin-right: 0;
+    }
+  }
+
+  .input-group {
+    margin-bottom: 20px;
+  }
+
+  .contact-button {
+    button {
+      display: block;
+      margin-bottom: 0;
+      border-radius: 5px;
+      padding: 7.5px 20px;
+      color: var(--black);
+      background-color: var(--base-color);
+      outline: none;
+      border: none;
+      font-size: 16px;
+      font-weight: 500;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      transition: all 500ms ease;
+
+      @include media("<md") {
+        font-size: 16px;
+        padding: 5px 10px;
+      }
+
+      &:hover {
+        color: #fff;
+        background-color: var(--black);
+      }
+    }
+  }
+
+  .input-group
+    input:not([type="checkbox"]):not([type="radio"]):not([type="submit"]):not([type="reset"]),
+  .input-group textarea {
+    width: 100%;
+    height: 80px;
+    display: block;
+    border: none;
+    outline: none;
+    background-color: #eceeef;
+    font-size: 16px;
+    font-weight: 500;
+    color: #878986;
+    padding-left: 30px;
+    border-radius: 5px;
+
+    @include media("<md") {
+      height: 50px;
+      font-size: 14px;
+      padding-left: 15px;
+    }
+  }
+
+  .input-group textarea {
+    height: 170px;
+    padding-top: 20px;
+  }
+}

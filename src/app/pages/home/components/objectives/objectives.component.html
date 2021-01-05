@@ -5,7 +5,8 @@
     fxLayoutAlign="space-between center"
   >
     <div
-      class="objectives__image"
+      class="objectives__image wow fadeInLeft"
+      data-wow-delay="500ms"
       fxFlex="45"
       fxLayout
       fxLayoutAlign="center center"
@@ -13,7 +14,10 @@
       <img src="assets/images/resources/objectives_bg.jpg" alt="" />
     </div>
     <section fxFlex="45">
-      <header class="objectives__block-title">
+      <header
+        class="objectives__block-title wow fadeInUp"
+        data-wow-delay="600ms"
+      >
         <p>{{ "HOME.OBJECTIVES.SMALL_HEADING" | translate }}</p>
         <h3>{{ "HOME.OBJECTIVES.BIG_HEADING" | translate }}</h3>
         <div class="leaf">
@@ -21,7 +25,11 @@
         </div>
       </header>
 
-      <section class="objectives__cards" fxLayout="column">
+      <section
+        class="objectives__cards wow fadeInRight"
+        data-wow-delay="600ms"
+        fxLayout="column"
+      >
         <article fxFlexAlign="start">
           {{ "HOME.OBJECTIVES.OBJECTIVE_1" | translate }}
         </article>

@@ -1,0 +1,54 @@
+.standards {
+  padding: 60px;
+
+  &__block-title {
+    margin-bottom: 30px;
+    text-align: center;
+    text-transform: uppercase;
+
+    p {
+      color: var(--dark-gray);
+      letter-spacing: 0.2em;
+      font-size: 1rem;
+      font-weight: 600;
+      margin: 0;
+    }
+
+    h3 {
+      font-size: 4rem;
+      color: var(--dark-green);
+      font-weight: 700;
+      line-height: 1.2;
+    }
+  }
+
+  &__points {
+    p {
+      position: relative;
+      font-size: 1.2rem;
+      font-weight: 700;
+      margin-bottom: 12.5px;
+
+      &::before {
+        font-size: 2rem;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: -20px;
+        right: 0;
+        font-weight: 600;
+        color: var(--dark-green);
+        content: "❙";
+      }
+    }
+
+    ul {
+      margin-bottom: 10px;
+      li {
+        font-size: 1.2rem;
+        list-style-type: circle;
+        list-style-position: inside;
+      }
+    }
+  }
+}

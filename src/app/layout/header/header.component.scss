@@ -84,10 +84,14 @@
   }
 
   &__logo {
-    position: relative;
     img {
       height: 95px;
       width: 95px;
+
+      @include media("<md") {
+        height: 50px;
+        width: 50px;
+      }
     }
   }
 

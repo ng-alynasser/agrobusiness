@@ -1,5 +1,11 @@
+@import "src/styles";
+
 .standards {
-  padding: 60px;
+  padding: 60px 0;
+
+  @include media("<md") {
+    padding: 40px 0;
+  }
 
   &__block-title {
     margin-bottom: 30px;
@@ -19,6 +25,10 @@
       color: var(--dark-green);
       font-weight: 700;
       line-height: 1.2;
+
+      @include media("<md") {
+        font-size: 2rem;
+      }
     }
   }
 
@@ -28,6 +38,10 @@
       font-size: 1.2rem;
       font-weight: 700;
       margin-bottom: 12.5px;
+
+      @include media("<md") {
+        font-size: 1rem;
+      }
 
       &::before {
         font-size: 2rem;
@@ -39,6 +53,10 @@
         font-weight: 600;
         color: var(--dark-green);
         content: "❙";
+
+        @include media("<md") {
+          display: none;
+        }
       }
     }
 
@@ -48,6 +66,10 @@
         font-size: 1.2rem;
         list-style-type: circle;
         list-style-position: inside;
+
+        @include media("<md") {
+          font-size: 1rem;
+        }
       }
     }
   }

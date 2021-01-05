@@ -3,6 +3,10 @@
 .introduction {
   padding: 70px 0 10px;
 
+  @include media("<md") {
+    padding: 20px 0;
+  }
+
   &__block-title {
     margin-bottom: 55px;
     text-align: center;
@@ -25,6 +29,10 @@
       color: var(--dark-green);
       font-weight: 700;
       line-height: 1.2;
+
+      @include media("<md") {
+        font-size: 2rem;
+      }
     }
   }
 

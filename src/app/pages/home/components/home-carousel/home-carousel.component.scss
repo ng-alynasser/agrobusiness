@@ -108,6 +108,10 @@
     font-weight: 700;
     text-transform: uppercase;
     font-family: var(--heading-font);
+
+    @include media("<md") {
+      font-size: 2rem;
+    }
   }
 
   &__leafs {

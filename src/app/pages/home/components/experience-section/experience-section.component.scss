@@ -5,7 +5,7 @@
   background-color: rgba(#caf181, 0.5);
 
   @include media("<md") {
-    padding: 40px 0;
+    padding: 20px 0;
   }
 
   h2 {
@@ -27,6 +27,10 @@
     color: var(--black);
     font-size: 1.2rem;
 
+    @include media("<md") {
+      font-size: 1rem;
+    }
+
     &::before {
       font-size: 1.2rem;
       position: absolute;
@@ -37,11 +41,10 @@
       font-weight: 600;
       content: "☐";
       color: var(--medium-green);
-    }
 
-    @include media("<md") {
-      font-size: 15px;
-      line-height: 1.4;
+      @include media("<md") {
+        display: none;
+      }
     }
   }
 

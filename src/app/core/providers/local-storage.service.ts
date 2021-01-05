@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
 
 export type LocalStorageKey = 'uiLanguageCode';
-const PREFIX = 'SAGECO_';
+const PREFIX = 'MUBADALA_';
 
 @Injectable({
   providedIn: 'root',

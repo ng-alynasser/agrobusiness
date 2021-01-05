@@ -46,7 +46,7 @@
         right: 0;
         font-weight: 600;
         content: "☐";
-        color: var(--dark-green);
+        color: var(--medium-green);
 
         @include media("<md") {
           display: none;

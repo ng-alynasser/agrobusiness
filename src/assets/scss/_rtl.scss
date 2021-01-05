@@ -24,30 +24,70 @@ html[dir="rtl"] {
       }
     }
 
-    .experience {
-      &__card:last-child {
-        margin-right: 30px !important;
+    .introduction {
+      &__block-title {
+        h3 {
+          font-size: 2rem !important;
+          line-height: 1.3 !important;
+        }
+      }
+
+      &__paragraphs {
+        article {
+          &::before {
+            left: 0 !important;
+            right: -30px !important;
+          }
+        }
       }
     }
 
-    .services {
-      &__block-title {
-        h3 {
-          font-size: 55px !important;
+    .mission {
+      &__paragraphs {
+        p {
+          &::before {
+            left: 0 !important;
+            right: -40px !important;
+          }
         }
 
-        p {
-          font-size: 20px !important;
-          margin-bottom: 10px !important;
+        ul {
+          li {
+            &::before {
+              left: 0 !important;
+              right: -20px !important;
+            }
+          }
         }
       }
+    }
 
-      .carousel-item {
-        .hover-box {
-          padding: 20 10px !important;
-          h3 {
-            line-height: 1.4 !important;
-            font-size: 25px !important;
+    .objectives {
+      &__cards {
+        article {
+          &::before {
+            left: 0 !important;
+            right: -40px !important;
+          }
+        }
+      }
+    }
+
+    .experience {
+      p {
+        &::before {
+          left: 0 !important;
+          right: -30px !important;
+        }
+      }
+    }
+
+    .standards {
+      &__points {
+        p {
+          &::before {
+            left: 0 !important;
+            right: -20px !important;
           }
         }
       }
@@ -57,41 +97,6 @@ html[dir="rtl"] {
       &__text {
         text-align: center;
         line-height: 1.4;
-      }
-    }
-
-    .clients {
-      &__block-title {
-        h3 {
-          font-size: 55px !important;
-        }
-
-        p {
-          font-size: 20px !important;
-          margin-bottom: 10px !important;
-        }
-      }
-    }
-
-    .vision {
-      h2 {
-        line-height: 1.4 !important;
-      }
-      p {
-        font-size: 20px !important;
-      }
-    }
-
-    .partners {
-      &__block-title {
-        h3 {
-          font-size: 55px !important;
-        }
-
-        p {
-          font-size: 20px !important;
-          margin-bottom: 10px !important;
-        }
       }
     }
 

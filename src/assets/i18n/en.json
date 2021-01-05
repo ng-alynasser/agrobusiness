@@ -2,10 +2,8 @@
   "HEADER": {
     "HOME": "Home",
     "SERVICES": "Services",
-    "PROJECTS": "Projects",
     "NEWS": "News",
     "GALLERY": "Gallery",
-    "CHOOSE_US": "Why choose us",
     "ABOUT": "About",
     "CONTACT": "Contact",
     "WHO_ARE_WE": "Who are we"
@@ -18,7 +16,7 @@
     "COPY_RIGHTS": "All copyrights"
   },
   "HOME": {
-    "PAGE_TITLE": "SAGEGO | Home",
+    "PAGE_TITLE": "MUBADALA | Home",
     "META_DESCRIPTION": "Homepage",
     "HOME_CAROUSEL": {
       "SLIDE_1_TITLE": "Mubadala Agricultural Company",
@@ -39,8 +37,6 @@
     "MISSION": {
       "SMALL_HEADING": "What we target",
       "BIG_HEADING": "our mission",
-      "NUMBER_1": "01",
-      "NUMBER_2": "02",
       "PARAGRAPH_1": "Focusing on advanced agricultural techniques to support farmers in production processes and support them.",
       "PARAGRAPH_2": "Contribute to ensuring high-quality food security locally, regionally and internationally and work to add value  to partners and society in general through:",
       "POINT_1": "Working to increase the company's share in the local, Arab and international market.",
@@ -61,22 +57,7 @@
       "TITLE": "Experience and Know-How in AGROBUSINESS",
       "PARAGRAPH_1": "The steering committee of MUBADALA AGRICULTURE has reviewed the proposed strategic planning during the meeting held on 27th November 2019 and analysed the current status through highlighting SWOT analysis focusing on strengths and weaknesses and available resources.",
       "PARAGRAPH_2": "Accordingly formulating the vision and mission of the company and designing the strategies and corporate objectives to realize it and applicable performance measurements.",
-      "PARAGRAPH_3": "The committee satisfied and approved the proposal, therefore the company announces to all stakeholders about the strategy and look forward to total understanding of the objectives and mechanism of strategy and to streamline all of our effects to adhere to it and realize its objectives.",
-      "REAL_STATE": "Real State",
-      "INDUSTRIAL": "Industrial",
-      "PERTROCHEMICALS": "Petrochemicals",
-      "WATER": "Water Technologies",
-      "CONSTRUCTION": "Construction Products",
-      "AUTOMOBILE": "Automobile",
-      "ENGINEERING": "Engineering",
-      "PLASTICS": "Plastics",
-      "MEDICAL": "Medical",
-      "CONSUMER": "Consumer Products",
-      "ENERGY": "Energy",
-      "TELECOMMUNICATION": "Telecommunication",
-      "CHAIN": "Supply Chain Management",
-      "EDUCATION": "Education & IT",
-      "FOOD": "Food & Agriculture"
+      "PARAGRAPH_3": "The committee satisfied and approved the proposal, therefore the company announces to all stakeholders about the strategy and look forward to total understanding of the objectives and mechanism of strategy and to streamline all of our effects to adhere to it and realize its objectives."
     },
     "STANDARDS": {
       "SMALL_HEADING": "what we guarantee",
@@ -95,20 +76,6 @@
       "POINT_8": "Best practices and standards.",
       "POINT_9": "Business direction for activity of manufacturing fish products instead of selling it as whole fish."
     },
-    "SERVICES": {
-      "SMALL_HEADING": "What we do",
-      "BIG_HEADING": "Services we offer",
-      "EXPLORE": "Explore more",
-      "READ_MORE": "Read more",
-      "DILLIGENCE": "Financial Due Diligence",
-      "EVALUATION": "Financial Evaluation",
-      "INV_ADVISORY": "Investment Advisory",
-      "DEV_ADVISORY": "Development Advisory",
-      "INTERNAL": "Internal Audit",
-      "MODELING": "Financial Appraisals & Modeling",
-      "IFRS": "IFRS Implementation",
-      "VAT": "VAT Implementation"
-    },
     "TRUST": {
       "HEADING": "MUBADALA trusted by more than",
       "CLIENTS_NUMBER": "255",
@@ -118,46 +85,17 @@
       "PRODUCTS": "products",
       "PRODUCTS_NUMBER": "1750"
     },
-    "CLIENTS": {
-      "SMALL_HEADING": "who shares our success",
-      "BIG_HEADING": "meet the clients"
-    },
-    "PARTNERS": {
-      "SMALL_HEADING": "who believes in us",
-      "BIG_HEADING": "meet the partners"
-    },
     "QUALITY": {
       "HEADING": "we guarantee to provide you the highest quality products that meet your expectations.",
       "CONTACT_US": "contact us"
     }
   },
   "SERVICES": {
-    "PAGE_TITLE": "SAGEO | Services",
-    "META_DESCRIPTION": "About us page",
-    "FINANCIAL_ADVISORY": "Financial Advisory",
-    "THERE_IS_MORE": "And there's more",
-    "OUTSOURCING": "Outsourcing And Other Specialized Business Services",
-    "RESTRUCTURING": "Economy Restructuring And Short/Long - Term Outsourcing of Experienced Professionals",
-    "EVEN_MORE": "There's even more",
-    "MANAGEMENT_CONSULTANCY": "Management Consultancy",
-    "FISCAL": "Fiscal Adjustment Program",
-    "PROJECT_ADMINSTRATION": "Project Administration",
-    "POST_MERGER": "Post-Merger Integration",
-    "SUPPLY_CHAIN": "Supply Chain Management",
-    "INVENTORY_MANAGEMENT": "Inventory Management and Registry",
-    "LAST_NOT_LEAST": "Last but not least",
-    "RESEARCH": "Research and studies",
-    "FEASIBILITY_STUDIES": "Feasibility Studies.",
-    "MARKET_STUDIES": "Market Opportunity Studies.",
-    "SECTOR_STUDIES": "Sector and Countrywide Studies.",
-    "ASSESSMENT_STUDIES": "Assessment Studies.",
-    "INDUSTRIAL_REPORTS": "Industrial License Application Reports.",
-    "FOOD_AGRI": "Food and Agriculture.",
-    "MARKET_RESEARCH": "Market Survey Research (Qualitative and Qunatitative).",
-    "EDUCATION_SERVICES": "Education and IT Services (Procurement Intelligence, Supply Chain Management)."
+    "PAGE_TITLE": "MUBADALA | Services",
+    "META_DESCRIPTION": "About us page"
   },
   "GALLERY": {
-    "PAGE_TITLE": "SAGEO | Gallery",
+    "PAGE_TITLE": "MUBADALA | Gallery",
     "META_DESCRIPTION": "About us page"
   },
   "ABOUT": {

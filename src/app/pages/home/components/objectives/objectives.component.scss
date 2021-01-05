@@ -3,8 +3,19 @@
 .objectives {
   padding: 70px;
 
+  &__image {
+    img {
+      border-radius: 15px;
+      border: 2px solid var(--medium-green);
+      padding: 5px;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+
   &__block-title {
-    margin-bottom: 55px;
+    margin-bottom: 30px;
     text-align: center;
     text-transform: uppercase;
 
@@ -36,7 +47,7 @@
       border-radius: 10px;
 
       &:not(:first-of-type) {
-        margin-top: 20px;
+        margin-top: 10px;
       }
 
       &::before {

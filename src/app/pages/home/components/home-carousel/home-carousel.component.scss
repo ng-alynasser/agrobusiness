@@ -6,11 +6,13 @@
 
   &__circle-1 {
     position: absolute;
-    width: 115px;
-    height: 115px;
+    width: 300px;
+    height: 300px;
+    background-color: #fff;
     top: -20px;
-    left: 0;
-    z-index: 2;
+    left: -175px;
+    z-index: 1;
+    opacity: 0.5;
     -webkit-animation: planeMove 5s ease-in infinite;
     animation: planeMove 5s ease-in infinite;
 
